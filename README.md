@@ -40,7 +40,7 @@ The [user guide](USER_GUIDE.md) covers each step, updates, removal and troublesh
 | Local package checks | File/index signatures, ARM64 ELF, source/artifact hashes and two tamper controls pass |
 | Native checks | Nine policy cases and an isolated Android loader probe passed during device testing |
 
-**Not yet validated:** a complete two-way speech checklist, video calls with the extension, route switching, locked-screen/background ringing, autoload after a whole-phone reboot, and the removal/restoration procedure on the device. Other phones, Android releases and Jami versions are untested. Building for API 28 does not imply support for every Android 9+ device: extension loading and the dynamically resolved AAudio functions must also be available.
+**Not yet validated:** The removal/restoration procedure on the device. Other phones, Android releases and Jami versions are untested. Building for API 28 does not imply support for every Android 9+ device: extension loading and the dynamically resolved AAudio functions must also be available.
 
 ## How it works
 
