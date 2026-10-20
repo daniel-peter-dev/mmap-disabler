@@ -1,0 +1,8 @@
+{
+  "id": "MmapDisabler",
+  "name": "MmapDisabler",
+  "version": "0.1.1",
+  "description": "Experimental MMAP compatibility workaround for Galaxy S24 FE. Enable before calls; restart Jami after installing, disabling or removing. No root. Changes only this Jami process.",
+  "iconPath": "icon.png",
+  "backgroundPath": "icon.png"
+}

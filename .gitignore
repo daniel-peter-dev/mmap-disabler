@@ -1,0 +1,33 @@
+# Workflow history, local environments and Android SDK/NDK caches
+.ezermester/
+.private/
+.venv/
+venv/
+build/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.apk
+*.aab
+*.log
+# Conversation/recovery documents are local only
+docs/ezermester/
+RESUME.md
+STATUS.md
+# Only the current reviewed package and public metadata belong in dist
+dist/*
+!dist/MmapDisabler.jpl
+!dist/SHA256SUMS
+!dist/RELEASE.json

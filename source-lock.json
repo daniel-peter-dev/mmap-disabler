@@ -1,0 +1,14 @@
+{
+  "clientCommit": "d7b7f0a23f65d2b336eb059dc1fc5c160cd93e71",
+  "daemonCommit": "1c057cc2163ee2e4eb9f5a49ea1a29224fb7c66d",
+  "officialAndroidVersion": "20260925-01 (505)",
+  "pluginAbi": 1,
+  "pluginApi": 3,
+  "ndk": "r27d",
+  "target": "aarch64-linux-android28",
+  "references": [
+    "https://github.com/savoirfairelinux/jami-daemon",
+    "https://github.com/savoirfairelinux/jami-client-android",
+    "https://source.android.com/docs/core/audio/aaudio"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "artifact": "dist/MmapDisabler.jpl",
+  "bytes": 23581,
+  "sha256": "ffe69d5739725854716c4e1e1dded4c9ad1279f5906836fab0d86654dffe5af0",
+  "certificateSha256": "21542a2892fc404320aebc3b090979e650ae82b415998a6764a214c4a06f3ce4",
+  "files": {
+    "manifest.json": "f1ea2c700183242f72af9ba39829158efbf722d41b612bc32633aa604c7108ca",
+    "lib/arm64-v8a/libMmapDisabler.so": "1639c1c037409d7236c3afbd19a9a7b8ba098a58ddf14789f304214e1296e591",
+    "data/icon.png": "ca58700dad80156939271f7a39d9577de60540e79614f0ed32bd6bbeba345b34",
+    "data/preferences.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "data/accountpreferences.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "signatures": "7445f35c9935023cf1316f23bff4bf0ec9870f7ced9c7a9c43d771b7cd4f9e0a",
+    "signatures.sig": "31ea54ba0bbdeb2cb8e870a1eef61e0acc151f117cd4964606f20f579d0cc2c3",
+    "MmapDisabler.crt": "3e931a41a8774c3762a724f7d7fd573b9fe5896f3749903b5319655b137c1002"
+  },
+  "version": "0.1.1",
+  "archiveFormat": "ZIP",
+  "architecture": "arm64-v8a",
+  "target": "aarch64-linux-android28",
+  "buildToolchain": "Android NDK r27d, clang 18.0.4, Windows x64",
+  "sourceHashMode": "normalized-lf",
+  "sourceHashes": {
+    "src/extension.cpp": "f4c9dc843d476cce02fe1db82e87e89a6b18173b97c74fdd164f4f69ab6ef934",
+    "src/mmap-policy.h": "c027031de9e58572acc09f7ebc3e76e47c27c7be5e0b3e6829d18f5eb7d6d132",
+    "third_party/jami/jamiplugin.h": "77c7af0d08ec1e896443e7737d29bd28b4485df4bd4fda6eac139e473d1a2ab4",
+    "manifest.json": "e3aff994c043f82751e51dcceaed32f9055e15f44cd1fb709fc8aff7fab65862",
+    "tools/build.py": "71df5c20e348fd1eef60fc88e57b8f9c8d63efa702491a49eb497835101afb47",
+    "tools/audit.py": "cec49fd2675336da3a99694c67fc1f8023eb404b7978a90c0471a9b51ecc1b49",
+    "tools/check-device.py": "1f309d916c8804494f6b277e29fe728e77885e5370b77d8534f71ecd78b7b7d9",
+    "tests/policy-test.cpp": "77477eca1003edb1d078abff3a941676f76e2b73a403a8a96c8e20482364077e",
+    "tests/loader-probe.cpp": "a0a2efbc6e6998e55595af377e5ac893ebccbfd487f14ccbe0428f5707989f0e",
+    "tests/test_audit.py": "3df8d77ec3cab780cc36d54551969dd85ce9665cc7c2d0d1cbed49fe5e8abdfd",
+    "source-lock.json": "6454e0cd85e55f7baaad54a6135fcf464427e99c0805cea3de9e5bfba21a0e39",
+    "requirements-build.txt": "60b86f79ecd380cba573ebea0d741781cab48014094b2af6c5977b291adbcf03"
+  },
+  "tested": {
+    "device": "Samsung Galaxy S24 FE (SM-S721B)",
+    "android": "16",
+    "jami": "Euclid 20260925-01 (505)",
+    "verified": [
+      "JPL installation via supported local certificate confirmation",
+      "Automatic extension loading after app force-stop/reopen",
+      "Non-MMAP capture and playback paths",
+      "User-confirmed audible outgoing built-in-microphone speech with Bluetooth disconnected"
+    ]
+  },
+  "notValidated": [
+    "Complete two-way speech checklist",
+    "Video calls",
+    "Audio route switching",
+    "Locked-screen/background ringing",
+    "Whole-phone reboot autoload",
+    "End-to-end removal/restoration device test"
+  ],
+  "note": "Tooling/documentation review preserved the phone-validated JPL byte for byte. Source hashes normalize CRLF to LF; signing key is deliberately not distributed."
+}
