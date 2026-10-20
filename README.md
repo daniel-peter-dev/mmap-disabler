@@ -2,6 +2,8 @@
 
 **A small Android Jami extension that works around silent microphone capture on a tested Samsung Galaxy S24 FE by disabling AAudio MMAP inside Jami.**
 
+**This app was vibe coded by Codex using GPT 6.1 Sol**
+
 Keep the official Jami app and your existing account. Install one `.jpl` extension, enable it, and restart Jami before making calls. No root or replacement APK is required.
 
 This is an independent, experimental compatibility workaround, not an official Jami or Samsung release. It has been tested on one phone/software combination; it is not a general fix for every microphone problem.
